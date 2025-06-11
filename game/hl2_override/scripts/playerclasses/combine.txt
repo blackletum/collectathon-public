@@ -1,0 +1,15 @@
+//
+// Half-Life 2 - Combine Player Class
+//
+PlayerClass
+{
+	// Attributes.
+	"ClassType"		"4" // FACTION_HL2
+	"name"				"combine"
+	"model"				"models/player/ct_gign.mdl"
+	"localize_name"		"HL2_Class_Name_Combine"
+	"health_max"		"100"
+	
+	// Weapon Info
+	"weapon1"			"CS_WEAPON_KNIFE"
+}

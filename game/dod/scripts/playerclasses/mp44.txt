@@ -1,0 +1,30 @@
+//
+// Day of Defeat - MP44 Player Class
+//
+PlayerClass
+{
+	// Attributes.
+	"ClassType"		"1" // FACTION_DOD
+	"name"				"mp44"
+	"model"				"models/player/german_support.mdl"
+	"localize_name"		"class_axis_mp44"
+	"health_max"		"100"
+	
+	// Weapon Info
+	"weapon1"			"DOD_WEAPON_MP44"
+	"weapon3"			"DOD_WEAPON_SPADE"
+
+	"grenadetype"		"DOD_WEAPON_FRAG_GER"
+	"numgrens"			"2"
+	
+	// Model Info
+	"helmetgroup"		"0"
+	"hairgroup"			"1"
+
+	"drophelmet"		"HELMET_AXIS"
+
+	"limitcvar"			"mp_limit_axis_support"
+
+	"healthimage"		"cls_ger_mp44_active"
+	"healthimagebg"		"cls_ger_mp44_active_bg"
+}

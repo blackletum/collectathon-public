@@ -1,0 +1,11 @@
+//Overview: scale 10.00, pos_x -5451, pos_y 4421
+
+"cp_dustbowl"
+{
+		"material" 		"overviews/cp_dustbowl"
+		"pos_x" 		"-5451"
+		"pos_y"			"4421"
+		"scale"			"10"
+		"rotate" 		"0"
+		"zoom"			"1"
+}

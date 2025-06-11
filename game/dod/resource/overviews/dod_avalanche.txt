@@ -1,0 +1,12 @@
+// overview description file for dod_avalanche.bsp
+
+"dod_avalanche"
+{
+	"material"	"overviews/dod_avalanche"	// texture file
+	"pos_x"		"-2089"
+	"pos_y"		"3529"
+	"scale"		"6" 
+	"rotate"	"0"
+	"zoom"		"1"
+}
+

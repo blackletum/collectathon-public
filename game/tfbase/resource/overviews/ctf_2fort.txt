@@ -1,0 +1,11 @@
+//Overview: scale 9.50, pos_x -6601, pos_y 4836
+
+"ctf_2fort"
+{
+		"material" 		"overviews/ctf_2fort"
+		"pos_x" 		"-6601"
+		"pos_y"			"4836"
+		"scale"			"9.50"
+		"rotate" 		"0"
+		"zoom"			"1"
+}

@@ -1,0 +1,17 @@
+//
+// Half-Life 2 - Rebel Player Class
+//
+PlayerClass
+{
+	// Attributes.
+	"ClassType"		"4" // FACTION_HL2
+	"name"				"rebel"
+	"model"				"models/player/ct_gign.mdl"
+	"localize_name"		"HL2_Class_Name_Rebel"
+	"health_max"		"100"
+	
+	// Weapon Info
+	"weapon1"			"CS_WEAPON_KNIFE"
+	"weapon2"			"HL2_WEAPON_PISTOL"
+	"weapon3"			"HL2_WEAPON_SMG1"
+}

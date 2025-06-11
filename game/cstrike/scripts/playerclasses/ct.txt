@@ -1,0 +1,16 @@
+//
+// Counter-Strike - CT Player Class
+//
+PlayerClass
+{
+	// Attributes.
+	"ClassType"		"3" // FACTION_CS
+	"name"				"ct"
+	"model"				"models/player/ct_gign.mdl"
+	"localize_name"		"CS_Class_Name_CT"
+	"health_max"		"100"
+	
+	// Weapon Info
+	"weapon1"			"CS_WEAPON_KNIFE"
+	"weapon2"			"CS_WEAPON_USP"
+}

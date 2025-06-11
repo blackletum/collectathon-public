@@ -1,0 +1,168 @@
+// sample animation script
+//
+//
+// commands:
+//	Animate <panel name> <variable> <target value> <interpolator> <start time> <duration>
+//		variables:
+//			FgColor
+//			BgColor
+//			Position
+//			Size
+//			Blur		(hud panels only)
+//			TextColor	(hud panels only)
+//			Ammo2Color	(hud panels only)
+//			Alpha		(hud weapon selection only)
+//			SelectionAlpha  (hud weapon selection only)
+//			TextScan	(hud weapon selection only)
+//
+//		interpolator:
+//			Linear
+//			Accel - starts moving slow, ends fast
+//			Deaccel - starts moving fast, ends slow
+//			Spline - simple ease in/out curve
+//			Pulse - < freq > over the duration, the value is pulsed (cosine) freq times ending at the dest value (assuming freq is integral)
+//			Flicker - < randomness factor 0.0 to 1.0 > over duration, each frame if random # is less than factor, use end value, otherwise use prev value
+//
+//	RunEvent <event name> <start time>
+//		starts another even running at the specified time
+//
+//	StopEvent <event name> <start time>
+//		stops another event that is current running at the specified time
+//
+//	StopAnimation <panel name> <variable> <start time>
+//		stops all animations refering to the specified variable in the specified panel
+//
+//	StopPanelAnimations <panel name> <start time>
+//		stops all active animations operating on the specified panel
+//
+//  SetFont <panel name> <fontparameter> <fontname from scheme> <set time> 
+//
+//	SetTexture <panel name> <textureidname> <texturefilename> <set time>
+//
+//  SetString <panel name> <string varname> <stringvalue> <set time>
+
+event CSOpenWeaponSelectionMenu
+{
+	StopEvent CSCloseWeaponSelectionMenu	0.0
+	StopEvent WeaponPickup				0.0
+
+	// make the display visible
+	Animate CSHudWeaponSelection Alpha 		"128"		Linear 0.0 0.1
+	Animate CSHudWeaponSelection SelectionAlpha 	"255"	Linear 0.0 0.1
+	Animate CSHudWeaponSelection FgColor		"FgColor"	Linear 0.0 0.1
+	//Animate CSHudWeaponSelection TextColor	"BrightFg"	Linear 0.0 0.1
+	Animate CSHudWeaponSelection TextScan		"1" 		Linear 0.0 0.1
+}
+
+event CSCloseWeaponSelectionMenu
+{
+	StopEvent CSCloseWeaponSelectionMenu	0.0
+	StopEvent WeaponPickup				0.0
+
+	// make the display visible
+	Animate CSHudWeaponSelection Alpha 		"128"		Linear 0.0 0.1
+	Animate CSHudWeaponSelection SelectionAlpha 	"255"	Linear 0.0 0.1
+	Animate CSHudWeaponSelection FgColor		"FgColor"	Linear 0.0 0.1
+	//Animate CSHudWeaponSelection TextColor	"BrightFg"	Linear 0.0 0.1
+	Animate CSHudWeaponSelection TextScan		"1" 		Linear 0.0 0.1
+}
+
+event CSPrimaryAmmoIncrement
+{
+}
+
+event CSPrimaryAmmoDecrement
+{
+	Animate CSHudAmmoPrimary  FgColor "HudIcon_Red" Linear 0.0 0.0001
+	Animate CSHudAmmoPrimary  FgColor "FgColor"   Accel 0.0 3.0
+}
+
+event CSPrimaryAmmoEmpty
+{
+}
+
+
+event CSSecondaryAmmoIncrement
+{
+}
+
+event CSSecondaryAmmoDecrement
+{
+	Animate CSHudAmmoPrimary  FgColor "HudIcon_Red" Linear 0.0 0.0001
+	Animate CSHudAmmoPrimary  FgColor "FgColor"   Accel 0.0 3.0
+}
+
+event CSSecondaryAmmoEmpty
+{
+}
+
+event CSShowPrimaryAmmoClipShowSecondaryAmmo
+{
+	// Turn on secondary
+	Animate CSHudAmmoSecondary		Alpha		"255"	Linear	0.0		0.4
+	// Turn on secondary
+	Animate CSHudAmmoPrimaryClip		Alpha		"255"	Linear	0.0		0.4
+
+	// Move primary to left
+//	Animate CSHudAmmoPrimary			Position	"r125 400"	Deaccel	0.0		0.4
+//	Animate CSHudAmmoPrimaryClip		Position	"r55 400"	Deaccel	0.0		0.4
+
+}
+
+event CSShowPrimaryAmmoClipHideSecondaryAmmo
+{
+	// Turn off secondary
+	Animate CSHudAmmoSecondary		Alpha		"0"	Linear	0.0		0.4
+	// Turn on secondary
+	Animate CSHudAmmoPrimaryClip		Alpha		"255"	Linear	0.0		0.4
+
+	// Move primary to left
+//	Animate CSHudAmmoPrimary			Position	"r100 400"	Deaccel	0.0		0.4
+//	Animate CSHudAmmoPrimaryClip		Position	"r30 400"	Deaccel	0.0		0.4
+}
+
+event CSHidePrimaryAmmoClipShowSecondaryAmmo
+{
+	// Turn on secondary
+	Animate CSHudAmmoSecondary		Alpha		"255"	Linear	0.0		0.4
+	// Turn off secondary
+	Animate CSHudAmmoPrimaryClip		Alpha		"0"	Linear	0.0		0.4
+
+	// Move primary to left
+//	Animate CSHudAmmoPrimary			Position	"100 400"	Deaccel	0.0		0.4
+//	Animate CSHudAmmoPrimaryClip		Position	"r30 400"	Deaccel	0.0		0.4
+}
+
+event CSHidePrimaryAmmoClipHideSecondaryAmmo
+{
+	// Turn off secondary
+	Animate CSHudAmmoSecondary		Alpha		"0"	Linear	0.0		0.4
+	// Turn off secondary
+	Animate CSHudAmmoPrimaryClip		Alpha		"0"	Linear	0.0		0.4
+
+	// Move primary to left
+//	Animate CSHudAmmoPrimary			Position	"r70 400"	Deaccel	0.0		0.4
+//	Animate CSHudAmmoPrimaryClip		Position	"r30 400"	Deaccel	0.0		0.4
+}
+
+event CSHealthRestored
+{
+	StopPanelAnimations CSHudHealth	0.0
+	Animate CSHudHealth		FgColor	"CS_OrangeDim"		Linear 0.0 0.01
+	Animate CSHudHealth		Blur	"7"			Deaccel 0.0 0.2
+	Animate CSHudHealth		Blur	"1"			Deaccel 0.2 1.0
+}
+
+event CSHealthTookDamage
+{
+	Animate CSHudHealth		FgColor	"CS_HudIcon_Red"		Linear 0.0 0.1
+	Animate CSHudHealth		FgColor	"CS_OrangeDim"		Pulse 	4 0.1 1.0
+	Animate CSHudHealth		Blur	"7"			Deaccel 0.0 0.2
+	Animate CSHudHealth		Blur	"1"			Deaccel 0.2 0.3
+}
+
+event CSHealthLow
+{
+	Animate CSHudHealth		FgColor	"CS_HudIcon_Red"		Linear 0.0 0.1
+	Animate CSHudHealth		FgColor	"CS_OrangeDim"		Pulse 2000 0.1 1000.0
+}

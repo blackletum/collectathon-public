@@ -1,0 +1,28 @@
+//
+// Day of Defeat - Spring Player Class
+//
+PlayerClass
+{
+	// Attributes.
+	"ClassType"		"1" // FACTION_DOD
+	"name"				"spring"
+	"model"				"models/player/american_sniper.mdl"
+	"localize_name"		"class_allied_sniper"
+	"health_max"		"100"
+	
+	// Weapon Info
+	"weapon1"			"DOD_WEAPON_SPRING"
+	"weapon2"			"DOD_WEAPON_COLT"
+	"weapon3"			"DOD_WEAPON_AMERKNIFE"
+	
+	// Model Info
+	"helmetgroup"		"0"
+	"hairgroup"			"1"
+
+	"drophelmet"		"HELMET_ALLIES"
+
+	"limitcvar"			"mp_limit_allies_sniper"
+
+	"healthimage"		"cls_us_spring_active"
+	"healthimagebg"		"cls_us_spring_active_bg"
+}

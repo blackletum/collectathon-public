@@ -1,0 +1,23 @@
+"sprites/640_hud"
+{
+	TextureFileRefs
+	{
+		"dfile"
+		{
+			"prefix"		"d_"
+		}
+		"dnegfile"
+		{
+			"prefix"		"dneg_"
+		}
+	}
+
+	TextureData
+	{
+		"cs_health_icon"
+		{
+			"font"		"CS_Icons"
+			"character"	"b"
+		}		
+	}	
+}

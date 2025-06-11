@@ -1,0 +1,28 @@
+//
+// Day of Defeat - K98 Player Class
+//
+PlayerClass
+{
+	// Attributes.
+	"ClassType"		"1" // FACTION_DOD
+	"name"				"k98"
+	"model"				"models/player/german_rifleman.mdl"
+	"localize_name"		"class_axis_kar98"
+	"health_max"		"100"
+	
+	// Weapon Info
+	"weapon1"			"DOD_WEAPON_K98"
+	"weapon2"			"DOD_WEAPON_RIFLEGREN_GER"
+	"weapon3"			"DOD_WEAPON_SPADE"
+	
+	// Model Info
+	"helmetgroup"		"0"
+	"hairgroup"			"1"
+
+	"drophelmet"		"HELMET_AXIS"
+
+	"limitcvar"			"mp_limit_axis_rifleman"
+
+	"healthimage"		"cls_ger_k98_active"
+	"healthimagebg"		"cls_ger_k98_active_bg"
+}

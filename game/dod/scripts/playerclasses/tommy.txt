@@ -1,0 +1,33 @@
+//
+// Day of Defeat - Thompson Player Class
+//
+PlayerClass
+{
+	// Attributes.
+	"ClassType"		"1" // FACTION_DOD
+	"name"				"tommy"
+	"model"				"models/player/american_assault.mdl"
+	"localize_name"		"class_allied_thompson"
+	"health_max"		"100"
+	
+	// Weapon Info
+	"weapon1"			"DOD_WEAPON_THOMPSON"
+	"weapon2"			"DOD_WEAPON_COLT"
+	
+	// Grenade Info
+	"grenadetype"		"DOD_WEAPON_FRAG_US"
+	"numgrens"			"1"
+	"grenadetype2"		"DOD_WEAPON_SMOKE_US"
+	"numgrens2"			"1"
+	
+	// Model Info
+	"helmetgroup"		"0"
+	"hairgroup"			"1"
+
+	"drophelmet"		"HELMET_ALLIES"
+
+	"limitcvar"			"mp_limit_allies_assault"
+
+	"healthimage"		"cls_us_thompson_active"
+	"healthimagebg"		"cls_us_thompson_active_bg"
+}

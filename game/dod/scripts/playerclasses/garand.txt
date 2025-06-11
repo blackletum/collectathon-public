@@ -1,0 +1,28 @@
+//
+// Day of Defeat - Garand Player Class
+//
+PlayerClass
+{
+	// Attributes.
+	"ClassType"		"1" // FACTION_DOD
+	"name"				"garand"
+	"model"				"models/player/american_rifleman.mdl"
+	"localize_name"		"class_allied_garand"
+	"health_max"		"100"
+	
+	// Weapon Info
+	"weapon1"			"DOD_WEAPON_GARAND"
+	"weapon2"			"DOD_WEAPON_RIFLEGREN_US"
+	"weapon3"			"DOD_WEAPON_AMERKNIFE"
+	
+	// Model Info
+	"helmetgroup"		"0"
+	"hairgroup"			"1"
+
+	"drophelmet"		"HELMET_ALLIES"
+
+	"limitcvar"			"mp_limit_allies_rifleman"
+
+	"healthimage"		"cls_us_garand_active"
+	"healthimagebg"		"cls_us_garand_active_bg"
+}

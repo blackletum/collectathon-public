@@ -1,0 +1,13 @@
+// overview description file for dod_flash
+
+"dod_donner"
+{
+	"material"	"overviews/dod_donner"	
+	"pos_x"		"-4023"	
+	"pos_y"		"3149"	
+	"scale"		"8" 	
+	"rotate"		"0"	
+	"zoom"		"1.25"	
+}
+
+

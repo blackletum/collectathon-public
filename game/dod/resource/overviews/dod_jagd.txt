@@ -1,0 +1,13 @@
+// overview description file for dod_jagd
+
+"dod_jagd"
+{
+	"material"	"overviews/dod_jagd"	
+	"pos_x"		"-3584"	
+	"pos_y"		"3584"	
+	"scale"		"8" 	
+	"rotate"		"0"	
+	"zoom"		"1.2"	
+}
+
+

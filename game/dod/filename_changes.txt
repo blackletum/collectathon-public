@@ -1,0 +1,36 @@
+[DAY OF DEFEAT]
+materials/detail/detailsprites -> materials/detail/detailsprites_dod
+
+materials/brickwall001 -> materials/brickwall001_dod
+materials/brickwall002 -> materials/brickwall002_dod
+materials/brickwall002a -> materials/brickwall002a_dod
+materials/brickwall002b -> materials/brickwall002b_dod
+materials/brickwall003a -> materials/brickwall003a_dod
+materials/brickwall004a -> materials/brickwall004a_dod
+materials/brickwall004b -> materials/brickwall004b_dod
+materials/brickwall004c -> materials/brickwall004c_dod
+materials/brickwall004e -> materials/brickwall004e_dod
+materials/brickwall004f -> materials/brickwall004f_dod
+materials/brickwall004g -> materials/brickwall004g_dod
+materials/brickwall007a -> materials/brickwall007a_dod
+materials/brickwall010a -> materials/brickwall010a_dod
+materials/brickwall056a -> materials/brickwall056a_dod
+materials/brickwall056b -> materials/brickwall056b_dod
+materials/brickwall056c -> materials/brickwall056c_dod
+materials/brickwall057a -> materials/brickwall057a_dod
+materials/brickwall057b -> materials/brickwall057b_dod
+materials/brickwall057c -> materials/brickwall057c_dod
+materials/brickwall058a -> materials/brickwall058a_dod
+materials/brickwall058b -> materials/brickwall058b_dod
+materials/brickwall058c -> materials/brickwall058c_dod
+materials/brickwall058d -> materials/brickwall058d_dod
+materials/brickwall059a -> materials/brickwall059a_dod
+materials/brickwall059b -> materials/brickwall059b_dod
+materials/brickwall059c -> materials/brickwall059c_dod
+
+materials/decals/scorch1 -> materials/decals/scorch1_dod
+
+materials/sprites/obj_icons/icon_obj_neutral -> materials/sprites/obj_icons/icon_obj_neutral_dod
+
+materials/vgui/capture_icon -> materials/vgui/capture_icon_dod
+materials/vgui/progress_bar -> materials/vgui/progress_bar_dod

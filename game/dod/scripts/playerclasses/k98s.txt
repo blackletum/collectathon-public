@@ -1,0 +1,28 @@
+//
+// Day of Defeat - K98s Player Class
+//
+PlayerClass
+{
+	// Attributes.
+	"ClassType"		"1" // FACTION_DOD
+	"name"				"k98s"
+	"model"				"models/player/german_sniper.mdl"
+	"localize_name"		"class_axis_sniper"
+	"health_max"		"100"
+	
+	// Weapon Info
+	"weapon1"			"DOD_WEAPON_K98_SCOPED"
+	"weapon2"			"DOD_WEAPON_P38"
+	"weapon3"			"DOD_WEAPON_SPADE"
+	
+	// Model Info
+	"helmetgroup"		"0"
+	"hairgroup"			"1"
+
+	"drophelmet"		"HELMET_AXIS"
+
+	"limitcvar"			"mp_limit_axis_sniper"
+
+	"healthimage"		"cls_ger_k98_scoped_active"
+	"healthimagebg"		"cls_ger_k98_scoped_active_bg"
+}

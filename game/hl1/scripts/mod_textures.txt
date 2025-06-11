@@ -1,0 +1,115 @@
+"sprites/640_hud"
+{
+	TextureFileRefs
+	{
+		"dfile"
+		{
+			"prefix"		"d_"
+		}
+		"dnegfile"
+		{
+			"prefix"		"dneg_"
+		}
+	}
+
+	TextureData
+	{
+		"hl1_cross"
+		{
+				"file"		"sprites/640hud7"
+				"x"			"80"
+				"y"			"26"
+				"width"		"32"
+				"height"	"32"
+		}
+		"hl1_number_0"
+		{
+				"file"		"sprites/640hud7"
+				"x"			"0"
+				"y"			"0"
+				"width"		"20"
+				"height"	"26"
+		}
+
+		"hl1_number_1"
+		{
+				"file"		"sprites/640hud7"
+				"x"			"20"
+				"y"			"0"
+				"width"		"20"
+				"height"	"26"
+		}
+
+		"hl1_number_2"
+		{
+				"file"		"sprites/640hud7"
+				"x"			"40"
+				"y"			"0"
+				"width"		"20"
+				"height"	"26"
+		}
+
+		"hl1_number_3"
+		{
+				"file"		"sprites/640hud7"
+				"x"			"60"
+				"y"			"0"
+				"width"		"20"
+				"height"	"26"
+		}
+
+		"hl1_number_4"
+		{
+				"file"		"sprites/640hud7"
+				"x"			"80"
+				"y"			"0"
+				"width"		"20"
+				"height"	"26"
+		}
+
+		"hl1_number_5"
+		{
+				"file"		"sprites/640hud7"
+				"x"			"100"
+				"y"			"0"
+				"width"		"20"
+				"height"	"26"
+		}
+
+		"hl1_number_6"
+		{
+				"file"		"sprites/640hud7"
+				"x"			"120"
+				"y"			"0"
+				"width"		"20"
+				"height"	"26"
+		}
+
+		"hl1_number_7"
+		{
+				"file"		"sprites/640hud7"
+				"x"			"140"
+				"y"			"0"
+				"width"		"20"
+				"height"	"26"
+		}
+
+		"hl1_number_8"
+		{
+				"file"		"sprites/640hud7"
+				"x"			"160"
+				"y"			"0"
+				"width"		"20"
+				"height"	"26"
+		}
+
+		"hl1_number_9"
+		{
+				"file"		"sprites/640hud7"
+				"x"			"180"
+				"y"			"0"
+				"width"		"20"
+				"height"	"26"
+		}		
+	}	
+}

@@ -1,0 +1,557 @@
+"sprites/640_hud"
+{
+	TextureFileRefs
+	{
+		"dfile"
+		{
+			"prefix"		"d_"
+		}
+		"dnegfile"
+		{
+			"prefix"		"dneg_"
+		}
+	}
+
+	TextureData
+	{		
+		"spade"
+		{
+				"dfile"	"HUD/d_images_dod"
+				"dnegfile"	"HUD/d_images_dod"
+				"x"		"0"
+				"y"		"0"
+				"width"		"96"
+				"height"	"32"
+		}
+		"k98"
+		{
+				"dfile"	"HUD/d_images_dod"
+				"dnegfile"	"HUD/d_images_dod"
+				"x"		"0"
+				"y"		"32"
+				"width"		"96"
+				"height"	"32"
+		}
+		"k98_scoped"
+		{
+				"dfile"	"HUD/d_images_dod"
+				"dnegfile"	"HUD/d_images_dod"
+				"x"		"0"
+				"y"		"64"
+				"width"		"96"
+				"height"	"32"
+		}
+		"mp40"
+		{
+				"dfile"	"HUD/d_images_dod"
+				"dnegfile"	"HUD/d_images_dod"
+				"x"		"0"
+				"y"		"96"
+				"width"		"96"
+				"height"	"32"
+		}
+		"mp44"
+		{
+				"dfile"	"HUD/d_images_dod"
+				"dnegfile"	"HUD/d_images_dod"
+				"x"		"0"
+				"y"		"128"
+				"width"		"96"
+				"height"	"32"
+		}
+		"mg42"
+		{
+				"dfile"	"HUD/d_images_dod"
+				"dnegfile"	"HUD/d_images_dod"
+				"x"		"0"
+				"y"		"160"
+				"width"		"96"
+				"height"	"32"
+		}
+		"rocket_pschreck"
+		{
+				"dfile"	"HUD/d_images_dod"
+				"dnegfile"	"HUD/d_images_dod"
+				"x"		"0"
+				"y"		"192"
+				"width"		"96"
+				"height"	"32"
+		}
+		"p38"
+		{
+				"dfile"	"HUD/d_images_dod"
+				"dnegfile"	"HUD/d_images_dod"
+				"x"		"0"
+				"y"		"224"
+				"width"		"96"
+				"height"	"32"
+		}
+		"c96"
+		{
+				"dfile"	"HUD/d_images_dod"
+				"dnegfile"	"HUD/d_images_dod"
+				"x"		"0"
+				"y"		"256"
+				"width"		"96"
+				"height"	"32"
+		}
+		"amerknife"
+		{
+				"dfile"	"HUD/d_images_dod"
+				"dnegfile"	"HUD/d_images_dod"
+				"x"		"0"
+				"y"		"288"
+				"width"		"96"
+				"height"	"32"
+		}
+		"garand"
+		{
+				"dfile"	"HUD/d_images_dod"
+				"dnegfile"	"HUD/d_images_dod"
+				"x"		"0"
+				"y"		"320"
+				"width"		"96"
+				"height"	"32"
+		}
+		"thompson"
+		{
+				"dfile"	"HUD/d_images_dod"
+				"dnegfile"	"HUD/d_images_dod"
+				"x"		"0"
+				"y"		"352"
+				"width"		"96"
+				"height"	"32"
+		}
+		"bar"
+		{
+				"dfile"	"HUD/d_images_dod"
+				"dnegfile"	"HUD/d_images_dod"
+				"x"		"0"
+				"y"		"384"
+				"width"		"96"
+				"height"	"32"
+		}
+		"spring"
+		{
+				"dfile"	"HUD/d_images_dod"
+				"dnegfile"	"HUD/d_images_dod"
+				"x"		"0"
+				"y"		"416"
+				"width"		"96"
+				"height"	"32"
+		}
+		"30cal"
+		{
+				"dfile"	"HUD/d_images_dod"
+				"dnegfile"	"HUD/d_images_dod"
+				"x"		"0"
+				"y"		"448"
+				"width"		"96"
+				"height"	"32"
+		}
+		"rocket_bazooka"
+		{
+				"dfile"	"HUD/d_images_dod"
+				"dnegfile"	"HUD/d_images_dod"
+				"x"		"0"
+				"y"		"480"
+				"width"		"96"
+				"height"	"32"
+		}
+		"m1carbine"
+		{
+				"dfile"	"HUD/d_images_dod"
+				"dnegfile"	"HUD/d_images_dod"
+				"x"		"0"
+				"y"		"512"
+				"width"		"96"
+				"height"	"32"
+		}
+		"colt"
+		{
+				"dfile"	"HUD/d_images_dod"
+				"dnegfile"	"HUD/d_images_dod"
+				"x"		"0"
+				"y"		"544"
+				"width"		"96"
+				"height"	"32"
+		}
+		"grenade_riflegren_us"
+		{
+				"dfile"	"HUD/d_images_dod"
+				"dnegfile"	"HUD/d_images_dod"
+				"x"		"96"
+				"y"		"0"
+				"width"		"96"
+				"height"	"32"
+		}
+		"grenade_riflegren_ger"
+		{
+				"dfile"	"HUD/d_images_dod"
+				"dnegfile"	"HUD/d_images_dod"
+				"x"		"96"
+				"y"		"32"
+				"width"		"96"
+				"height"	"32"
+		}
+		"grenade_frag_us"
+		{
+				"dfile"	"HUD/d_images_dod"
+				"dnegfile"	"HUD/d_images_dod"
+				"x"		"96"
+				"y"		"64"
+				"width"		"96"
+				"height"	"32"
+		}
+		"grenade_frag_ger"
+		{
+				"dfile"	"HUD/d_images_dod"
+				"dnegfile"	"HUD/d_images_dod"
+				"x"		"96"
+				"y"		"96"
+				"width"		"96"
+				"height"	"32"
+		}
+		"grenade_smoke_us"
+		{
+				"dfile"	"HUD/d_images_dod"
+				"dnegfile"	"HUD/d_images_dod"
+				"x"		"96"
+				"y"		"128"
+				"width"		"96"
+				"height"	"32"
+		}
+		"grenade_smoke_ger"
+		{
+				"dfile"	"HUD/d_images_dod"
+				"dnegfile"	"HUD/d_images_dod"
+				"x"		"96"
+				"y"		"160"
+				"width"		"96"
+				"height"	"32"
+		}
+		"deflect_bazooka"
+		{
+				"dfile"	"HUD/d_images_dod"
+				"dnegfile"	"HUD/d_images_dod"
+				"x"		"192"
+				"y"		"0"
+				"width"		"192"
+				"height"	"32"
+		}
+		"deflect_pschreck"
+		{
+				"dfile"	"HUD/d_images_dod"
+				"dnegfile"	"HUD/d_images_dod"
+				"x"		"192"
+				"y"		"32"
+				"width"		"192"
+				"height"	"32"
+		}
+		"deflect_frag_us"
+		{
+				"dfile"	"HUD/d_images_dod"
+				"dnegfile"	"HUD/d_images_dod"
+				"x"		"192"
+				"y"		"64"
+				"width"		"192"
+				"height"	"32"
+		}
+		"deflect_frag_german"
+		{
+				"dfile"	"HUD/d_images_dod"
+				"dnegfile"	"HUD/d_images_dod"
+				"x"		"192"
+				"y"		"96"
+				"width"		"192"
+				"height"	"32"
+		}
+		"deflect_riflegrenade_us"
+		{
+				"dfile"	"HUD/d_images_dod"
+				"dnegfile"	"HUD/d_images_dod"
+				"x"		"192"
+				"y"		"128"
+				"width"		"192"
+				"height"	"32"
+		}
+		"deflect_riflegrenade_german"
+		{
+				"dfile"	"HUD/d_images_dod"
+				"dnegfile"	"HUD/d_images_dod"
+				"x"		"192"
+				"y"		"160"
+				"width"		"192"
+				"height"	"32"
+		}
+
+		/////////// DAY OF DEFEAT ///////////
+
+		"capture_icon"
+		{
+			"font"		"ClientTitleFontSmall"
+			"character"	"."
+		}
+
+		"stamina_icon"
+		{
+			"font"		"ClientTitleFontPlayerIcons"
+			"character"	"/"
+		}
+
+		"mgheat_mg42"
+		{
+			"font"		"ClientTitleFontPlayerIcons"
+			"character"	"0"
+		}
+
+		"mgheat_30cal"
+		{
+			"font"		"ClientTitleFontPlayerIcons"
+			"character"	"1"
+		}
+
+		"fireselect_bullet"
+		{
+			"font"		"ClientTitleFontPlayerIcons"
+			"character"	"4"
+		}
+
+		"weapon_bar_fireselect"
+		{
+			"font"		"ClientTitleFontPlayerIcons"
+			"character"	"2"
+		}		
+
+		"weapon_mp44_fireselect"
+		{
+			"font"		"ClientTitleFontPlayerIcons"
+			"character"	"3"
+		}
+
+		"wpn_garand"
+		{
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"0"
+			"y"		"189"
+			"width"		"375"
+			"height"	"80"
+		}
+
+		"wpn_tommy"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"0"
+			"y"		"0"
+			"width"		"350"
+			"height"	"122"
+			}
+
+		"wpn_bar"
+		{
+			"file"	"sprites/hud/dod_weapons01"
+			"x"		"0"
+			"y"		"120"
+			"width"		"380"
+			"height"	"74"
+		}
+
+		"wpn_spring"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"0"
+			"y"		"286"
+			"width"		"409"
+			"height"	"101"
+		}
+
+		"wpn_30cal"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"0"
+			"y"		"490"
+			"width"		"407"
+			"height"	"178"
+		}
+
+		"wpn_bazooka"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"0"
+			"y"		"667"
+			"width"		"411"
+			"height"	"87"
+		}
+
+		"wpn_m1carb"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"0"
+			"y"		"396"
+			"width"		"391"
+			"height"	"95"
+		}
+
+		"wpn_colt"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"380"
+			"y"		"0"
+			"width"		"185"
+			"height"	"125"
+		}
+
+		"wpn_knife"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"589"
+			"y"		"0"
+			"width"		"195"
+			"height"	"96"
+		}
+
+		"wpn_riflegren_us"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"427"
+			"y"		"222"
+			"width"		"288"
+			"height"	"100"
+		}
+
+		"wpn_smoke_us"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"415"
+			"y"		"574"
+			"width"		"170"
+			"height"	"112"
+		}
+
+		"wpn_frag_us"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"412"
+			"y"		"458"
+			"width"		"158"
+			"height"	"100"
+		}
+
+		"wpn_k98"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"645"
+			"y"		"643"
+			"width"		"379"
+			"height"	"82"
+		}
+
+		"wpn_mp40"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"792"
+			"y"		"0"
+			"width"		"232"
+			"height"	"102"
+		}
+
+		"wpn_mp44"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"712"
+			"y"		"221"
+			"width"		"312"
+			"height"	"119"
+		}
+
+		"wpn_k98s"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"644"
+			"y"		"547"
+			"width"		"380"
+			"height"	"95"
+		}
+
+		"wpn_mg42"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"611"
+			"y"		"725"
+			"width"		"413"
+			"height"	"108"
+		}
+
+		"wpn_pschreck"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"618"
+			"y"		"835"
+			"width"		"406"
+			"height"	"124"
+		}
+
+		"wpn_c96"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"697"
+			"y"		"337"
+			"width"		"327"
+			"height"	"100"
+		}
+
+		"wpn_p38"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"833"
+			"y"		"101"
+			"width"		"191"
+			"height"	"121"
+		}
+
+		"wpn_spade"
+		{
+			"file"	"sprites/hud/dod_weapons01"
+			"x"		"407"
+			"y"		"334"
+			"width"		"259"
+			"height"	"107"
+		}
+
+		"wpn_riflegren_ger"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"675"
+			"y"		"447"
+			"width"		"349"
+			"height"	"93"
+		}
+
+		"wpn_smoke_ger"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"0"
+			"y"		"784"
+			"width"		"204"
+			"height"	"127"
+		}
+
+		"wpn_frag_ger"
+		{	
+			"file"		"sprites/hud/dod_weapons01"
+			"x"		"204"
+			"y"		"784"
+			"width"		"213"
+			"height"	"127"
+		}
+		
+		"wpn_tnt"
+		{
+			"file"		"sprites/hud/tnt"
+			"x"		"50"
+			"y"		"0"
+			"width"		"156"
+			"height"	"128"
+		}
+	}	
+}

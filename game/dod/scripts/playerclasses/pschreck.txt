@@ -1,0 +1,28 @@
+//
+// Day of Defeat - PSCHRECK Player Class
+//
+PlayerClass
+{
+	// Attributes.
+	"ClassType"		"1" // FACTION_DOD
+	"name"				"pschreck"
+	"model"				"models/player/german_rocket.mdl"
+	"localize_name"		"class_axis_pschreck"
+	"health_max"		"100"
+	
+	// Weapon Info
+	"weapon1"			"DOD_WEAPON_PSCHRECK"
+	"weapon2"			"DOD_WEAPON_C96"
+	"weapon3"			"DOD_WEAPON_SPADE"
+	
+	// Model Info
+	"helmetgroup"		"0"
+	"hairgroup"			"1"
+
+	"drophelmet"		"HELMET_AXIS"
+
+	"limitcvar"			"mp_limit_axis_rocket"
+
+	"healthimage"		"cls_ger_pschreck_active"
+	"healthimagebg"		"cls_ger_pschreck_active_bg"
+}

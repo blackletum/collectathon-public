@@ -1,0 +1,16 @@
+//
+// Counter-Strike - T Player Class
+//
+PlayerClass
+{
+	// Attributes.
+	"ClassType"		"3" // FACTION_CS
+	"name"				"t"
+	"model"				"models/player/t_leet.mdl"
+	"localize_name"		"CS_Class_Name_T"
+	"health_max"		"100"
+	
+	// Weapon Info
+	"weapon1"			"CS_WEAPON_KNIFE"
+	"weapon2"			"CS_WEAPON_GLOCK"
+}

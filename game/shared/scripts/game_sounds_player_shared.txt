@@ -1,0 +1,292 @@
+// Channels
+//	CHAN_AUTO		= 0,
+//	CHAN_WEAPON		= 1,
+//	CHAN_VOICE		= 2,
+//	CHAN_ITEM		= 3,
+//	CHAN_BODY		= 4,
+//	CHAN_STREAM		= 5,		// allocate stream channel from the static or dynamic area
+//	CHAN_STATIC		= 6,		// allocate channel from the static area 
+// these can be set with "channel" "2" or "channel" "chan_voice"
+
+//-----------------------------------------------------------------------------
+// common attenuation values
+//-----------------------------------------------------------------------------
+
+// DON'T USE THESE - USE SNDLVL_ INSTEAD!!!
+//	ATTN_NONE		0.0f	
+//	ATTN_NORM		0.8f
+//	ATTN_IDLE		2.0f
+//	ATTN_STATIC		1.25f 
+//	ATTN_RICOCHET	1.5f
+//	ATTN_GUNFIRE	0.27f
+
+//	SNDLVL_NONE		= 0,
+//	SNDLVL_25dB		= 25,
+//	SNDLVL_30dB		= 30,
+//	SNDLVL_35dB		= 35,
+//	SNDLVL_40dB		= 40,
+//	SNDLVL_45dB		= 45,
+//	SNDLVL_50dB		= 50,	// 3.9
+//	SNDLVL_55dB		= 55,	// 3.0
+//	SNDLVL_IDLE		= 60,	// 2.0
+//	SNDLVL_TALKING	= 60,	// 2.0
+//	SNDLVL_60dB		= 60,	// 2.0
+//	SNDLVL_65dB		= 65,	// 1.5
+//	SNDLVL_STATIC	= 66,	// 1.25
+//	SNDLVL_70dB		= 70,	// 1.0
+//	SNDLVL_NORM		= 75,
+//	SNDLVL_75dB		= 75,	// 0.8
+//	SNDLVL_80dB		= 80,	// 0.7
+//	SNDLVL_85dB		= 85,	// 0.6
+//	SNDLVL_90dB		= 90,	// 0.5
+//	SNDLVL_95dB		= 95,
+//	SNDLVL_100dB	= 100,	// 0.4
+//	SNDLVL_105dB	= 105,
+//	SNDLVL_120dB	= 120,
+//	SNDLVL_130dB	= 130,
+//	SNDLVL_GUNFIRE	= 140,	// 0.27
+//	SNDLVL_140dB	= 140,	// 0.2
+//	SNDLVL_150dB	= 150,	// 0.2
+
+// ------------------------------------------------------------------------------------ //
+//  Weapon Hit (Ding a lings)
+// ------------------------------------------------------------------------------------ //
+
+"Player.HitSoundDefaultDing"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"	
+	"pitch"			"PITCH_NORM"
+
+	"wave"			")ui/hitsound.wav"
+}
+
+"Player.HitSoundBeepo"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"	
+	"pitch"			"PITCH_NORM"
+
+	"wave"	")ui/hitsound_beepo.wav"
+}
+
+"Player.HitSoundVortex"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"	
+	"pitch"			"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	")ui/hitsound_vortex1.wav"
+		"wave"	")ui/hitsound_vortex2.wav"
+		"wave"	")ui/hitsound_vortex3.wav"
+		"wave"	")ui/hitsound_vortex4.wav"
+		"wave"	")ui/hitsound_vortex5.wav"	
+	}
+}
+
+"Player.HitSoundElectro"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"	
+	"pitch"			"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	")ui/hitsound_electro1.wav"
+		"wave"	")ui/hitsound_electro2.wav"
+		"wave"	")ui/hitsound_electro3.wav"
+	}
+}
+
+"Player.HitSoundNotes"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"	
+	"pitch"			"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"ui/hitsound_menu_note1.wav"
+		"wave"	"ui/hitsound_menu_note2.wav"
+		"wave"	"ui/hitsound_menu_note3.wav"
+		"wave"	"ui/hitsound_menu_note4.wav"
+		"wave"	"ui/hitsound_menu_note5.wav"
+		"wave"	"ui/hitsound_menu_note6.wav"
+		"wave"	"ui/hitsound_menu_note7.wav"
+		"wave"	"ui/hitsound_menu_note7b.wav"
+		"wave"	"ui/hitsound_menu_note8.wav"
+		"wave"	"ui/hitsound_menu_note9.wav"			
+	}
+}
+
+"Player.HitSoundPercussion"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"	
+	"pitch"			"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	")ui/hitsound_percussion1.wav"
+		"wave"	")ui/hitsound_percussion2.wav"
+		"wave"	")ui/hitsound_percussion3.wav"
+		"wave"	")ui/hitsound_percussion4.wav"
+		"wave"	")ui/hitsound_percussion5.wav"						
+	}
+}
+
+"Player.HitSoundRetro"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"	
+	"pitch"			"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	")ui/hitsound_retro1.wav"
+		"wave"	")ui/hitsound_retro2.wav"
+		"wave"	")ui/hitsound_retro3.wav"
+		"wave"	")ui/hitsound_retro4.wav"
+		"wave"	")ui/hitsound_retro5.wav"						
+	}
+}
+
+"Player.HitSoundSpace"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"	
+	"pitch"			"PITCH_NORM"
+
+	"wave"	")ui/hitsound_space.wav"
+}
+
+"Player.HitSoundSquasher"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"	
+	"pitch"			"PITCH_NORM"
+
+	"wave"	")ui/hitsound_squasher.wav"
+}
+
+"Player.HitSoundSynth"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1"
+	"soundlevel"  	"SNDLVL_NONE"	
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"ui/hitsound_synth1.wav"
+		"wave"	"ui/hitsound_synth2.wav"
+		"wave"	"ui/hitsound_synth3.wav"
+		"wave"	"ui/hitsound_synth4.wav"
+		"wave"	"ui/hitsound_synth5.wav"						
+	}
+}
+
+// ------------------------------------------------------------------------------------ //
+//  Weapon Kill (Ding a lings)
+// ------------------------------------------------------------------------------------ //
+
+"Player.KillSoundDefaultDing"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"	
+	"pitch"			"PITCH_NORM"
+
+	"wave"	")ui/killsound.wav"
+}
+
+"Player.KillSoundBeepo"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"	
+	"pitch"			"PITCH_NORM"
+
+	"wave"	")ui/killsound_beepo.wav"
+}
+
+"Player.KillSoundElectro"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"	
+	"pitch"			"PITCH_NORM"
+
+	"wave"	")ui/killsound_electro.wav"
+}
+
+"Player.KillSoundNotes"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"	
+	"pitch"			"PITCH_NORM"
+
+	"wave"	"ui/killsound_note.wav"
+}
+
+"Player.KillSoundPercussion"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"	
+	"pitch"			"PITCH_NORM"
+
+	"wave"	")ui/killsound_percussion.wav"
+}
+
+"Player.KillSoundRetro"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"	
+	"pitch"			"PITCH_NORM"
+
+	"wave"	")ui/killsound_retro.wav"
+}
+
+"Player.KillSoundSpace"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"	
+	"pitch"			"PITCH_NORM"
+
+	"wave"	")ui/killsound_space.wav"
+}
+
+"Player.KillSoundSquasher"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"	
+	"pitch"			"PITCH_NORM"
+
+	"wave"	")ui/killsound_squasher.wav"
+}
+
+"Player.KillSoundVortex"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"	
+	"pitch"			"PITCH_NORM"
+
+	"wave"	")ui/killsound_vortex.wav"
+}

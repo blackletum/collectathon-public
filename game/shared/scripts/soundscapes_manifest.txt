@@ -1,0 +1,26 @@
+soundscapes_manifest
+{
+
+		"file"		"scripts/soundscapes.txt"
+
+		// List additional soundscape files here
+
+		"file"		"scripts/soundscapes_2fort.txt"
+		"file"		"scripts/soundscapes_dustbowl.txt"
+		"file"		"scripts/soundscapes_well.txt"
+		"file"		"scripts/soundscapes_badlands.txt"
+		"file"		"scripts/soundscapes_gravelpit.txt"
+		"file"		"scripts/soundscapes_hydro.txt"
+		"file"		"scripts/soundscapes_granary.txt"
+
+		// DOD
+		"file"		"scripts/soundscapes_colmar.txt"
+		"file"		"scripts/soundscapes_kalt.txt"
+		"file"		"scripts/soundscapes_flash.txt"
+		"file"		"scripts/soundscapes_anzio.txt"
+		"file"		"scripts/soundscapes_avalanche.txt"
+		"file"		"scripts/soundscapes_donner.txt"	
+		"file"		"scripts/soundscapes_argentan.txt"
+		"file"		"scripts/soundscapes_jagd.txt"
+		"file"		"scripts/soundscapes_dod_palermo.txt"
+}

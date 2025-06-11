@@ -1,0 +1,4 @@
+game_sounds_manifest
+{
+	"preload_file"  	"scripts/game_sounds_player_shared.txt"
+}

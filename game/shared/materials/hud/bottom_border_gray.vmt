@@ -1,0 +1,29 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "hud/bottom_border_mask"
+	"$translucent" 1
+	"$ignorez" 1
+
+	// Please don't question my methods
+	"$colortint_base" "{46 42 42}"
+	"$colortint_tmp" "[0 0 0]"
+
+	"Proxies"
+	{
+		"ItemTintColor"
+		{
+			"resultVar" "$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"	"$colortint_tmp"
+			"srcVar2"	"$colortint_base"
+			"resultVar" "$color2"
+		}
+		"Multiply"
+		{
+			"srcVar1" "$color2"
+			"resultVar" "$color2"
+		}
+	}
+}

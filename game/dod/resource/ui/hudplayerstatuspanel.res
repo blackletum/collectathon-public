@@ -1,0 +1,173 @@
+"Resource/UI/HudPlayerStatusPanel.res"
+{
+	"PlayerStatusMainBackground"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"PlayerStatusMainBackground"
+		"xpos"			"16"
+		"ypos"			"128"
+		"zpos"			"-2"
+		"wide"			"240"
+		"tall"			"32"
+		"visible"		"1"
+		"enabled"		"1"
+		"CornerToCut"	"top_right"
+		"CornerCutSize"	"8"
+	}
+	"PlayerStatusAlliesIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusAlliesIcon"
+		"xpos"			"21"
+		"ypos"			"133"
+		"zpos"			"-1"
+		"wide"			"22"
+		"tall"			"22"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/icon_obj_allies"
+		"scaleImage"	"1"	
+	}
+	"PlayerStatusAxisIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusAxisIcon"
+		"xpos"			"21"
+		"ypos"			"133"
+		"zpos"			"-1"
+		"wide"			"22"
+		"tall"			"22"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/icon_obj_axis"
+		"scaleImage"	"1"	
+	}
+	"PlayerStatusLeftLine"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusLeftLine"
+		"xpos"			"88"
+		"ypos"			"131"
+		"wide"			"1"
+		"tall"			"26"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillColor"		"DOD_HudPanelBorder"
+	}				
+	"PlayerStatusRightLine"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusRightLine"
+		"xpos"			"160"
+		"ypos"			"131"
+		"wide"			"1"
+		"tall"			"26"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillColor"		"DOD_HudPanelBorder"
+	}
+	"PlayerStatusAmmo"
+	{
+		"ControlName"				"Panel"	
+		"fieldName"					"PlayerStatusAmmo"
+		"xpos"						"168"
+		"ypos"						"115"
+		"wide"						"84"
+		"tall"						"52"
+		"visible"					"1"
+		"enabled"					"1"
+
+		"clip_count_text_xpos"		"62"
+		"clip_count_text_ypos"		"23"
+
+		"large_icon_xpos"			"0"
+		"large_icon_ypos"			"0"
+		"large_icon_width"			"32"
+		"large_icon_height"			"51"
+		
+		"small_icon_xpos"			"0"
+		"small_icon_ypos"			"16"
+		"small_icon_width"			"32"
+		"small_icon_height"			"25"	
+
+		"extra_clip_xpos"			"39"
+		"extra_clip_ypos"			"17"
+		"extra_clip_width"			"22"
+		"extra_clip_height"			"24"
+		
+		"AmmoCountColor"			"240 207 78 102"
+		"AmmoXColor"				"255 255 255 102"
+	}
+	"PlayerStatusHealth"
+	{
+		"ControlName"	"EditablePanel"	
+		"fieldName"		"PlayerStatusHealth"
+		"xpos"			"42"
+		"ypos"			"91"
+		"zpos"			"0"
+		"wide"			"46"
+		"tall"			"78"
+		"visible"		"1"
+		"enabled"		"1"
+	}	
+	"PlayerStatusCurrentWeapon"
+	{
+		"ControlName"	"EditablePanel"	
+		"fieldName"		"PlayerStatusCurrentWeapon"
+		"xpos"			"90"
+		"ypos"			"130"
+		"wide"			"67"
+		"tall"			"27"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	"PlayerStatusStamina"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"PlayerStatusStamina"
+		"xpos"				"10"
+		"ypos"				"161"
+		"wide"				"266"
+		"tall"				"32"
+		"visible"			"1"
+		"enabled"			"1"
+	}
+	"PlayerStatusMGHeat"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"PlayerStatusMGHeat"
+		"xpos"				"r260"
+		"ypos"				"161"
+		"wide"				"260"
+		"tall"				"32"
+		"visible"			"1"
+		"enabled"			"1"
+	}
+	"PlayerStatusFireSelect"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"PlayerStatusFireSelect"
+		"xpos"				"r260"
+		"ypos"				"161"
+		"wide"				"260"
+		"tall"				"32"
+		"visible"			"1"
+		"enabled"			"1"
+	}
+	
+	"PlayerStatusTNT"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"PlayerStatusTNT"
+		"xpos"				"16"
+		"ypos"				"100"
+		"zpos"				"-1"
+		"wide"				"43"
+		"tall"				"26"
+		"visible"			"1"
+		"enabled"			"1"
+		
+		"CornerToCut"	"top_left"
+		"CornerCutSize"	"5"
+	}
+}

@@ -1,0 +1,9 @@
+"dod_salerno"
+{
+	"material"	"overviews/dod_palermo"
+	"pos_x"		"-1864"	
+	"pos_y"		"4138"	
+	"scale"		"6.0" 	
+	"rotate"	"0"	
+	"zoom"		"1"	
+}

@@ -1,0 +1,12 @@
+// overview description file for dod_argentan.bsp
+
+"dod_argentan"
+{
+	"material"	"overviews/dod_argentan"	// texture file
+	"pos_x"		"-3712"
+	"pos_y"		"3160"
+	"scale"		"7" 
+	"rotate"	"0"
+	"zoom"		"1.33"
+}
+

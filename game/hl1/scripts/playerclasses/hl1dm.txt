@@ -1,0 +1,16 @@
+//
+// Half-Life 1 - Deathmatch Player Class
+//
+PlayerClass
+{
+	// Attributes.
+	"ClassType"		"5" // FACTION_HL2
+	"name"				"hl1dm"
+	"model"				"models/player/ct_gign.mdl"
+	"localize_name"		"HL1_Class_Name_DM"
+	"health_max"		"100"
+	
+	// Weapon Info
+	"weapon1"			"CS_WEAPON_KNIFE"
+	"weapon2"			"CS_WEAPON_AK47"
+}

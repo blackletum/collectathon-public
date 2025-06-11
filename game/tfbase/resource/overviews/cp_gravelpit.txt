@@ -1,0 +1,11 @@
+//Overview: scale 9.00, pos_x -5728, pos_y 7046
+
+"cp_gravelpit"
+{
+		"material" 		"overviews/cp_gravelpit"
+		"pos_x" 		"-5728"
+		"pos_y"			"7046"
+		"scale"			"9.00"
+		"rotate" 		"0"
+		"zoom"			"1"
+}

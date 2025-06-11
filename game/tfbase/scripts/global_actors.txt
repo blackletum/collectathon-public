@@ -1,0 +1,30 @@
+globalactors
+{
+	// Team Fortress 2
+
+	"demo"		"male"
+	"engineer"	"male"
+	"heavy"		"male"
+	"heavy_hwm"	"male"
+	"medic"		"male"
+	"pyro"		"male"
+	"scout"		"male"
+	"sniper"	"male"
+	"soldier"	"male"
+	"spy"		"male"
+
+	// Day of Defeat
+	"german_rifleman"	"male"
+	"german_assault"	"male"
+	"german_support"	"male"
+	"german_sniper"		"male"
+	"german_mg"		"male"
+	"german_rocket"		"male"
+
+	"american_rifleman"	"female"
+	"american_assault"	"female"
+	"american_support"	"female"
+	"american_sniper"	"female"
+	"american_mg"		"female"
+	"american_rocket"	"female"
+}

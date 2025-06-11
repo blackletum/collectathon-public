@@ -1,0 +1,11 @@
+//Overview: scale 9.60, pos_x -5333, pos_y 4905
+
+"cp_badlands"
+{
+		"material" 		"overviews/cp_badlands"
+		"pos_x" 		"-5333"
+		"pos_y"			"4905"
+		"scale"			"9.60"
+		"rotate" 		"0"
+		"zoom"			"1"
+}

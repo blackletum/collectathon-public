@@ -1,0 +1,32 @@
+//
+// Day of Defeat - MP40 Player Class
+//
+PlayerClass
+{
+	// Attributes.
+	"ClassType"		"1" // FACTION_DOD
+	"name"				"mp40"
+	"model"				"models/player/german_assault.mdl"
+	"localize_name"		"class_axis_mp40"
+	"health_max"		"100"
+	
+	// Weapon Info
+	"weapon1"			"DOD_WEAPON_MP40"
+	"weapon2"			"DOD_WEAPON_P38"
+
+	"grenadetype"		"DOD_WEAPON_FRAG_GER"
+	"numgrens"			"1"
+	"grenadetype2"		"DOD_WEAPON_SMOKE_GER"
+	"numgrens2"			"1"
+	
+	// Model Info
+	"helmetgroup"		"0"
+	"hairgroup"			"1"
+
+	"drophelmet"		"HELMET_AXIS"
+
+	"limitcvar"			"mp_limit_axis_assault"
+
+	"healthimage"		"cls_ger_mp40_active"
+	"healthimagebg"		"cls_ger_mp40_active_bg"
+}

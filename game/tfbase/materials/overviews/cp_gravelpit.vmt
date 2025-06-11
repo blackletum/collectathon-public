@@ -1,0 +1,11 @@
+"UnlitGeneric"
+{
+
+    "$basetexture" "overviews/cp_gravelpit"
+    "$vertexcolor" "1"
+    "$vertexalpha" "1"
+    "$no_fullbright" "1"
+    "$ignorez" "1"
+}
+
+//seal before you yell at me that this one is ass, I got lazy :DDDD

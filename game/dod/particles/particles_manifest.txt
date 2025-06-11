@@ -1,0 +1,8 @@
+particles_manifest
+{
+		"file"		"!%s/particles/achievement.pcf"
+		"file"		"!%s/particles/explosions.pcf"
+		"file"		"!%s/particles/muzzleflashes.pcf"
+		"file"		"!%s/particles/particles.pcf"
+		"file"		"!%s/particles/rockettrail.pcf"
+}

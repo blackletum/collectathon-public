@@ -1,0 +1,30 @@
+//
+// Day of Defeat - Bar Player Class
+//
+PlayerClass
+{
+	// Attributes.
+	"ClassType"		"1" // FACTION_DOD
+	"name"				"bar"
+	"model"				"models/player/american_support.mdl"
+	"localize_name"		"class_allied_heavy"
+	"health_max"		"100"
+	
+	// Weapon Info
+	"weapon1"			"DOD_WEAPON_BAR"
+	"weapon3"			"DOD_WEAPON_AMERKNIFE"
+
+	"grenadetype"		"DOD_WEAPON_FRAG_US"
+	"numgrens"			"2"
+	
+	// Model Info
+	"helmetgroup"		"0"
+	"hairgroup"			"1"
+
+	"drophelmet"		"HELMET_ALLIES"
+
+	"limitcvar"			"mp_limit_allies_support"
+
+	"healthimage"		"cls_us_bar_active"
+	"healthimagebg"		"cls_us_bar_active_bg"
+}

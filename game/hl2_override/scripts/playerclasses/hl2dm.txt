@@ -1,0 +1,15 @@
+//
+// Half-Life 2 - Deathmatch Player Class
+//
+PlayerClass
+{
+	// Attributes.
+	"ClassType"		"4" // FACTION_HL2
+	"name"				"hl2dm"
+	"model"				"models/player/ct_gign.mdl"
+	"localize_name"		"HL2_Class_Name_DM"
+	"health_max"		"100"
+	
+	// Weapon Info
+	"weapon1"			"CS_WEAPON_KNIFE"
+}

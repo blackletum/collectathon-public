@@ -1,0 +1,104 @@
+# source and debug files
+*.pdb
+*.dbg
+*_srv.so
+*.mdmp
+*.rf
+*.dat
+
+# misc 
+bin/.gitignore
+
+# Hammer
+gameconfig.txt
+hammer.vdf
+
+# mapsrc files
+tfbase/mapsrc/*.vmx
+tfbase/mapsrc/*.bsp
+tfbase/mapsrc/*.log
+tfbase/mapsrc/*.lin
+tfbase/mapsrc/*.prt
+
+# folders
+tfbase/addons/
+tfbase/cache/
+tfbase/custom/*
+tfbase/download/
+tfbase/downloadlists/
+tfbase/screenshots/
+tfbase/sound/temp/
+tfbase/maps/graphs/
+tfbase/materials/temp/*
+tfbase/materials/vgui/logos/*
+tfbase/materialsrc/
+tfbase/modelsrc/
+tfbase/maps/soundcache/
+tfbase/mapsrc/
+
+# allow files in ignored folders
+!tfbase/custom/readme.txt
+# pre-installed sprays
+
+# class config files
+tfbase/cfg/scout.cfg
+tfbase/cfg/soldier.cfg
+tfbase/cfg/pyro.cfg
+tfbase/cfg/demoman.cfg
+tfbase/cfg/heavyweapons.cfg
+tfbase/cfg/engineer.cfg
+tfbase/cfg/medic.cfg
+tfbase/cfg/sniper.cfg
+tfbase/cfg/spy.cfg
+tfbase/cfg/civilian.cfg
+tfbase/cfg/undefined.cfg
+
+# server config files
+tfbase/cfg/motd.txt
+tfbase/cfg/motd_defualt.txt
+tfbase/cfg/motd_text_defualt.txt
+tfbase/cfg/sourcemod
+tfbase/cfg/server.cfg
+tfbase/cfg/listenserver.cfg
+tfbase/cfg/mapcycle.txt
+tfbase/cfg/maplist.txt
+tfbase/cfg/server_blacklist.txt
+tfbase/cfg/banned_ip.cfg
+tfbase/cfg/banned_user.cfg
+tfbase/ServerConfig.vdf
+
+# user generated files
+tfbase/cfg/autoexec.cfg
+tfbase/cfg/config.cfg
+tfbase/cfg/userconfig.cfg
+tfbase/cfg/settings.scr
+tfbase/cfg/user.scr
+tfbase/cfg/user_mod.scr
+tfbase/cfg/pf.scr
+tfbase/cfg/pet.txt
+tfbase/cfg/commedit.txt
+tfbase/cfg/vmt.txt
+tfbase/media/viewed.res
+tfbase/resource/mp3player_db.txt
+tfbase/console.log
+tfbase/condump*.txt
+
+tfbase/GameState.txt
+tfbase/stats.txt
+tfbase/tf2_playerstats.dmx
+tfbase/modelsounds.cache
+tfbase/demoheader.tmp
+tfbase/voice_ban.dt
+tfbase/glshaders.cfg
+tfbase/videoconfig_linux.cfg
+tfbase/gamestate.txt
+steam_appid.txt
+hl2_gamestats.dat
+
+platform/config
+
+*.dem
+*.backup
+*.bat
+*.lnk
+*.cache

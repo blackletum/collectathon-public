@@ -1,0 +1,9 @@
+game_sounds_manifest
+{
+	"precache_file"		"scripts/game_sounds.txt"
+	"precache_file"  	"scripts/game_sounds_weapons.txt"
+	"precache_file"  	"scripts/game_sounds_ger_commands.txt"
+	"precache_file"  	"scripts/game_sounds_us_commands.txt"
+
+	"preload_file"  	"scripts/game_sounds_player.txt"
+}

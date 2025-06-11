@@ -1,0 +1,18 @@
+"sprites/640_hud"
+{
+	TextureFileRefs
+	{
+		"dfile"
+		{
+			"prefix"		"d_"
+		}
+		"dnegfile"
+		{
+			"prefix"		"dneg_"
+		}
+	}
+
+	TextureData
+	{		
+	}	
+}

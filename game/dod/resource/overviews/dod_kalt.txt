@@ -1,0 +1,12 @@
+// overview description file for dod_kalt.bsp
+
+"dod_kalt"
+{
+	"material"	"overviews/dod_kalt"	// texture file
+	"pos_x"		"64"
+	"pos_y"		"6400"
+	"scale"		"6" 
+	"rotate"	"0"
+	"zoom"		"1.33"
+}
+

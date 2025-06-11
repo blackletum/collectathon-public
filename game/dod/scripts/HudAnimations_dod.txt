@@ -1,0 +1,168 @@
+// sample animation script
+//
+//
+// commands:
+//	Animate <panel name> <variable> <target value> <interpolator> <start time> <duration>
+//		variables:
+//			FgColor
+//			BgColor
+//			Position
+//			Size
+//			Blur		(hud panels only)
+//			TextColor	(hud panels only)
+//			Ammo2Color	(hud panels only)
+//			Alpha		(hud weapon selection only)
+//			SelectionAlpha  (hud weapon selection only)
+//			TextScan	(hud weapon selection only)
+//
+//		interpolator:
+//			Linear
+//			Accel - starts moving slow, ends fast
+//			Deaccel - starts moving fast, ends slow
+//			Spline - simple ease in/out curve
+//			Pulse - < freq > over the duration, the value is pulsed (cosine) freq times ending at the dest value (assuming freq is integral)
+//			Flicker - < randomness factor 0.0 to 1.0 > over duration, each frame if random # is less than factor, use end value, otherwise use prev value
+//
+//	RunEvent <event name> <start time>
+//		starts another even running at the specified time
+//
+//	StopEvent <event name> <start time>
+//		stops another event that is current running at the specified time
+//
+//	StopAnimation <panel name> <variable> <start time>
+//		stops all animations refering to the specified variable in the specified panel
+//
+//	StopPanelAnimations <panel name> <start time>
+//		stops all active animations operating on the specified panel
+//
+//  SetFont <panel name> <fontparameter> <fontname from scheme> <set time> 
+//
+//	SetTexture <panel name> <textureidname> <texturefilename> <set time>
+//
+//  SetString <panel name> <string varname> <stringvalue> <set time>
+
+event MapOff
+{
+	Animate overview Position "640 0" Linear 0.0 0.001
+	Animate overview Size "0 0" Linear 0.0 0.001
+}
+
+event SnapToSmall
+{
+	Animate overview Position "r165 5" Linear 0.0 0.001
+	Animate overview Size "160 120" Linear 0.0 0.001
+}
+
+event SnapToLarge
+{
+	Animate overview Position "c-300 20" Linear 0.0 0.001
+	Animate overview Size "600 440" Linear 0.0 0.001
+	
+	StopAnimation overview zoom 0.0
+	Animate overview zoom "1.0" Linear 0.0 0.0001
+}
+
+event MapZoomLevel1
+{
+	StopAnimation overview zoom 0.0
+	Animate overview zoom "1.75" Linear 0.0 0.2
+}
+
+event MapZoomLevel2
+{
+	StopAnimation overview zoom 0.0
+	Animate overview zoom "4.0" Linear 0.0 0.2
+}
+
+event MapScaleToSmall
+{
+	Animate overview Position "r165 5" Linear 0.0 0.2
+	Animate overview Size "160 120" Linear 0.0 0.2
+}
+
+// demo MapOverview
+event ZoomToSmall
+{
+	Animate overview Position "r165 5" Linear 0.0 0.2
+	Animate overview Size "160 120" Linear 0.0 0.2
+	
+	StopAnimation overview zoom 0.0
+	Animate overview zoom "1.0" Linear 0.0 0.0001
+	Animate overview zoom "3.0" Spline 0.0001 1.0
+}
+
+event ZoomToLarge
+{
+	Animate overview Position "c-300 20" Linear 0.0 0.2
+	Animate overview Size "600 440" Linear 0.0 0.2
+	
+	StopAnimation overview zoom 0.0
+	Animate overview zoom "1.0" Spline 0.0 0.2
+}
+
+event ObjectiveIconShrink
+{
+	Animate HudObjectiveIcons icon_expand "0" Linear 0.0 0.2
+}
+
+event ObjectiveIconGrow
+{
+	Animate HudObjectiveIcons icon_expand "4" Linear 0.0 0.2
+}
+
+event TimerFlash
+{	
+	Animate HudObjectiveIcons TimerBG	"HudPanelObjectivesTimer"		Linear  0.0 0.1
+	Animate HudObjectiveIcons TimerBG	"HudPanelObjectivesTimer_Flash"	Linear  0.2 0.1
+	Animate HudObjectiveIcons TimerBG	"HudPanelObjectivesTimer"		Linear  0.4 0.1
+	Animate HudObjectiveIcons TimerBG	"HudPanelObjectivesTimer_Flash"	Linear  0.6 0.1
+	Animate HudObjectiveIcons TimerBG	"HudPanelObjectivesTimer"		Linear  0.8 0.1
+	Animate HudObjectiveIcons TimerBG	"HudPanelObjectivesTimer_Flash"	Linear  1.0 0.1
+	Animate HudObjectiveIcons TimerBG	"HudPanelObjectivesTimer"		Linear  1.2 0.1
+	Animate HudObjectiveIcons TimerBG	"HudPanelObjectivesTimer_Flash"	Linear  1.4 0.1
+	Animate HudObjectiveIcons TimerBG	"HudPanelObjectivesTimer"		Linear  1.6 0.1
+}
+
+event ShowTimeAdded
+{	
+	// grow the box
+	Animate HudObjectiveIcons	time_added_height_anim	1.0 Linear 0.0 0.2
+	
+	// fade in the time added
+	Animate HudObjectiveIcons	time_added_alpha	255.0	Linear	0.2 0.1
+}
+
+event HideTimeAdded
+{
+	StopEvent ShowTimeAdded 0.0
+	
+	// fade out time added
+	Animate HudObjectiveIcons	time_added_alpha	0.0	Linear	0.0 0.1
+	
+	// shrink box
+	Animate HudObjectiveIcons	time_added_height_anim	0.0 Linear 0.1 0.2
+}
+
+event DODOpenWeaponSelectionMenu
+{
+	StopEvent DODCloseWeaponSelectionMenu	0.0
+	StopEvent WeaponPickup				0.0
+//	StopEvent DODFadeOutWeaponSelectionMenu	0.0
+
+	// make the display visible
+	Animate DODHudWeaponSelection Alpha 		"128"		Linear 0.0 0.1	[$WIN32]
+	Animate DODHudWeaponSelection Alpha 		"192"		Linear 0.0 0.1	[$X360]
+	Animate DODHudWeaponSelection SelectionAlpha 	"255"		Linear 0.0 0.1
+	Animate DODHudWeaponSelection FgColor		"FgColor"	Linear 0.0 0.1
+	Animate DODHudWeaponSelection TextColor		"BrightFg"	Linear 0.0 0.1
+	Animate DODHudWeaponSelection TextScan		"1" 		Linear 0.0 0.1
+}
+
+event DODCloseWeaponSelectionMenu
+{
+	// hide the whole thing near immediately
+	Animate DODHudWeaponSelection FgColor		"0 0 0 0"	Linear 0.0 0.1
+	Animate DODHudWeaponSelection TextColor		"0 0 0 0"	Linear 0.0 0.1
+	Animate DODHudWeaponSelection Alpha		"0" 		Linear 0.0 0.1
+	Animate DODHudWeaponSelection SelectionAlpha 	"0" 		Linear 0.0 0.1
+}

@@ -1,0 +1,28 @@
+//
+// Day of Defeat - MG42 Player Class
+//
+PlayerClass
+{
+	// Attributes.
+	"ClassType"		"1" // FACTION_DOD
+	"name"				"mg42"
+	"model"				"models/player/german_mg.mdl"
+	"localize_name"		"class_axis_mg42"
+	"health_max"		"100"
+	
+	// Weapon Info
+	"weapon1"			"DOD_WEAPON_MG42"
+	"weapon2"			"DOD_WEAPON_P38"
+	"weapon3"			"DOD_WEAPON_SPADE"
+	
+	// Model Info
+	"helmetgroup"		"0"
+	"hairgroup"			"1"
+
+	"drophelmet"		"HELMET_AXIS"
+
+	"limitcvar"			"mp_limit_axis_mg"
+
+	"healthimage"		"cls_ger_mg42_active"
+	"healthimagebg"		"cls_ger_mg42_active_bg"
+}

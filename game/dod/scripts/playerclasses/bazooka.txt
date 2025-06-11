@@ -1,0 +1,28 @@
+//
+// Day of Defeat - Bazooka Player Class
+//
+PlayerClass
+{
+	// Attributes.
+	"ClassType"		"1" // FACTION_DOD
+	"name"				"bazooka"
+	"model"				"models/player/american_rocket.mdl"
+	"localize_name"		"class_allied_bazooka"
+	"health_max"		"100"
+	
+	// Weapon Info
+	"weapon1"			"DOD_WEAPON_BAZOOKA"
+	"weapon2"			"DOD_WEAPON_M1CARBINE"
+	"weapon3"			"DOD_WEAPON_AMERKNIFE"
+	
+	// Model Info
+	"helmetgroup"		"0"
+	"hairgroup"			"1"
+
+	"drophelmet"		"HELMET_ALLIES"
+
+	"limitcvar"			"mp_limit_allies_rocket"
+
+	"healthimage"		"cls_us_bazooka_active"
+	"healthimagebg"		"cls_us_bazooka_active_bg"
+}

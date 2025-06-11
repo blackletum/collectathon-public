@@ -1,0 +1,28 @@
+//
+// Day of Defeat - 30Cal Player Class
+//
+PlayerClass
+{
+	// Attributes.
+	"ClassType"		"1" // FACTION_DOD
+	"name"				"30cal"
+	"model"				"models/player/american_mg.mdl"
+	"localize_name"		"class_allied_mg"
+	"health_max"		"100"
+	
+	// Weapon Info
+	"weapon1"			"DOD_WEAPON_30CAL"
+	"weapon2"			"DOD_WEAPON_COLT"
+	"weapon3"			"DOD_WEAPON_AMERKNIFE"
+	
+	// Model Info
+	"helmetgroup"		"0"
+	"hairgroup"			"1"
+
+	"drophelmet"		"HELMET_ALLIES"
+
+	"limitcvar"			"mp_limit_allies_mg"
+
+	"healthimage"		"cls_us_30cal_active"
+	"healthimagebg"		"cls_us_30cal_active_bg"
+}

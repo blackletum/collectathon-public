@@ -1,0 +1,13 @@
+// overview description file for dod_colmar
+
+"dod_colmar"
+{
+	"material"	"overviews/dod_colmar"	
+	"pos_x"		"-4096"	
+	"pos_y"		"4096"	
+	"scale"		"8" 	
+	"rotate"		"0"	
+	"zoom"		"1.2"	
+}
+
+
