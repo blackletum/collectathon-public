@@ -1,0 +1,20 @@
+# Ignore compiled libs - there's a better way to do this but i'm lazy
+appframework.lib
+bitmap.lib
+choreoobjects.lib
+datamodel.lib
+dmserializers.lib
+dmxloader.lib
+matsys_controls.lib
+movieobjects.lib
+particles.lib
+shaderlib.lib
+tier0.exp
+tier0.lib
+tier2.lib
+tier3.lib
+vgui_surfacelib.lib
+vpklib.lib
+vstdlib.lib
+vstdlib.exp
+vtf.lib
