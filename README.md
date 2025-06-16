@@ -2,6 +2,9 @@ Repo containing the public source code for "Project Collectathon", the provided 
 User's wanting the content from DOD, CSS, HL2, HL1 etc must drag the required files from their legally owned copies into the required directories.
 Please note this project is/was in heavy development and many bugs are expected.
 
+When including the game directories, you will need to extract the vpks, 
+the only folders needed are "models", "materials", "sound" for each game.
+
 Project Summary:
 Project Collectathon (PC) is/was a project designed to port all Valve source and goldsrc games into one game project using Team Fortress 2 (2007) as a foundation,
 PC was a pet project and was used as a development environment to test the feasibility of this task.
